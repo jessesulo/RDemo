@@ -1,0 +1,16 @@
+Car Analysis Demo
+By Jesse Sulo
+
+```{r}
+data(cars)
+str(cars)
+summary(cars)
+plot(cars)
+```
+
+```{r}
+hist(cars$speed)
+boxplot(cars$dist)
+```
+
+The mean speed of cars was `r mean(cars$speed)`
